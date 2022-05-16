@@ -1,0 +1,194 @@
+/*
+* Custom Skeleton Styles
+* Wesley Carr
+* www.wesleymiles.com
+* 2/2014
+*/
+
+/* Base
+================================================== */
+body {
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: 1.5;}
+
+ul, ol { list-style-position: inside;}
+	li { line-height: 1.5;}
+
+p ,li { color: #113759;  /*slate blue*/ }
+
+p { margin-bottom: 1.3em; }
+
+h1, h2, h3 {
+	font-family: 'EB Garamond', serif;
+	margin: 1.414em 0 0.5em;
+	font-weight: inherit;
+	line-height: 1.1;}
+
+	h1 {
+		color: #fff;
+		margin: 0 0 10px;
+		text-shadow: 0px 1px 2px #333;
+	  font-size: 3.998em;}
+
+	h2 {
+		color: #425060;
+		text-shadow: 0px 1px 2px #FFFFFF;
+		margin: 0;
+		font-size: 2.827em;}
+
+	h3 {
+		color: #425060;
+		text-shadow: 0px 1px 2px #FFFFFF;
+		margin: 0 0 .5em;
+		font-size: 1.999em;}
+
+h4 {
+	font-weight: 300;
+	line-height: 1.1;
+	font-size: 1.414em;
+	padding-top: 7px; /* line h4 up with h3 in body text */
+	margin: 0 0 10px 0;
+	font-family: 'Open Sans', serif;
+	color: #7F99A3;
+	text-transform: uppercase;
+	font-weight: normal;
+	text-shadow: 0px 1px 2px #FFFFFF;}
+
+
+a,
+a:link,
+a:active,
+a:visited {
+	color: #425060;
+	-webkit-transition: color 0.2s linear;
+	-moz-transition: color 0.2s linear;
+	-o-transition: color 0.2s linear;
+	-ms-transition: color 0.2s linear;
+	transition: color 0.2s linear;}
+	a:hover { color: #555C64; }
+
+
+/* intro content
+================================================== */
+
+#intro {
+	border-bottom: #E8EAF2 solid 1px;
+	background-color: #F0F0F0;} /*off white*/
+
+.header {
+	width: 100%;
+	background-color: #34b176;
+	overflow: hidden;
+	padding-top: 3em;
+	color: #fff;
+	border-bottom: #427782 solid 1px;}
+	.header img { margin: 0 auto;}
+	.header p {
+		text-shadow: 0px 1px 2px #333;
+		color: #fff;}
+
+
+.intro { margin: 4em 0 5em; }
+	.intro p { font-size: 1.2em; }
+
+.sidebar {
+	border: #E8EAF2 solid 1px;
+	margin: 0 0 3em;
+	color: #000;
+	font-size: .9em;
+	padding: 20px 0;
+	background-color: #FFFFFF;}
+	.sidebar h4 {
+		text-align: center;}
+	.sidebar ul,
+	.sidebar p {
+		padding: 0 20px; }
+
+.fold-top img {
+	width: 50%;
+	outline: 1px solid #B1B9BF;
+	-webkit-box-shadow: 0px 0px 10px 0px #B0B0B0;
+	box-shadow: 0px 0px 10px 0px #B0B0B0;
+	float: right;
+	margin-left: 15px;}
+
+.look-down img {
+	text-align: center;
+	margin-bottom: 2em;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;}
+
+
+/* main content
+================================================== */
+
+#main {
+	padding-bottom: 1em;
+	background-color: #F9F9F9;}
+
+.project .fold-top {
+	margin-bottom: 2em; }
+
+.project .fold-bottom {
+	border-bottom: 2px solid #C4D0D5;
+	padding-bottom: 1em;
+	margin-bottom: 1em;}
+	.project .fold-bottom h4 {
+		margin: 0 0 1.5em 0;}
+
+
+.container .columns.border {
+	margin-bottom: 2.5em;
+	margin-right: -1em; /*allows the border below to work*/
+	border-left: 2px solid #C4D0D5;}
+
+
+.border h3,
+.border p,
+.border ul{
+	padding: 0 20px;}
+
+.border img {
+	outline: 1px solid #B1B9BF;
+	-webkit-box-shadow: 0px 0px 10px 0px #B0B0B0;
+	box-shadow: 0px 0px 10px 0px #B0B0B0;
+	margin: 0 20px;}
+
+
+
+/* Module
+================================================== */
+
+/*no overflow: hidden*/
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;}
+.clearfix:after {clear: both;}
+.cf {*zoom: 1;}
+
+.center {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;}
+
+hr { border-color: #C4D0D5;}
+
+em { font-family: Baskerville, Palatino, "Book Antiqua", serif; }
+
+p.caption {
+	margin-bottom: 2em;
+	text-align: center;
+	font-size: .85em;}
+
+a img:hover {
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	opacity: .8;}
+
